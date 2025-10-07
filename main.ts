@@ -8,7 +8,7 @@ const NO_QS_INLINE_DEEPL = Deno.env.get("NO_QS_INLINE_DEEPL") as string;
 
 const BOT_SESSION = Deno.env.get("BOT_SESSION") || "bot";
 
-const TG_API_ID = parseInt(Deno.env.get("API_ID") || "0");
+const TG_API_ID = parseInt(Deno.env.get("API_ID") || "21249292");
 const TG_API_HASH = Deno.env.get("API_HASH");
 const TG_BOT_TOKEN = Deno.env.get("BOT_TOKEN");
 

@@ -15,10 +15,10 @@ const TG_BOT_TOKEN = Deno.env.get("BOT_TOKEN");
 console.log("Starting Bot Client");
 const botClient = new Client(
   new StorageLocalStorage(BOT_SESSION),
-  TG_API_ID,
-  TG_API_HASH,
+  21249292,
+  b3300b7b36679b88125351eeebcbc59e,
 );
-await botClient.start(TG_BOT_TOKEN);
+await botClient.start(8222854918:AAFDcaQPxS-hRd_85_237DsjDuxkqGf0JgM);
 
 const botMe = await botClient.getMe();
 
